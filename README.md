@@ -59,8 +59,8 @@ terraform init
 ```
 terraform apply -auto-approve
 ```
-└─ 위의 명령어를 치면 AWS EC2를 생성한다.
+└─ 위의 명령어를 치면 AWS(EC2)와 NCP(Server)를 생성한다.
 ```
 terraform destroy -auto-approve
 ```
-└─ 위의 명령어를 치면 AWS EC2가 삭제된다.
+└─ 위의 명령어를 치면 AWS(EC2)와 NCP(Server)가 삭제된다.
