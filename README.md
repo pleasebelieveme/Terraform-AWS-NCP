@@ -53,6 +53,10 @@ provider "ncloud" {
 
 ## 실습적용
 ```
+terraform init
+```
+└─ 위의 명령어를 치면 Terraform 설정을 초기화하고 적용한다.
+```
 terraform apply -auto-approve
 ```
 └─ 위의 명령어를 치면 AWS EC2를 생성한다.
